@@ -124,27 +124,27 @@ import {Component, Input, Output, EventEmitter} from '@angular/core'
 
     /* Label: valid state */
     input:focus + shop-md-decorator > label {
-      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      opacity: 1;
+      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      opacity: 0.7;
     }
 
     input:optional:not(:placeholder-shown) + shop-md-decorator > label {
-      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      opacity: 1;
+      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      opacity: 0.7;
     }
 
     _:-ms-lang(x), input + shop-md-decorator > label {
-      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      opacity: 1;
+      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      opacity: 0.7;
     }
 
     input:optional:-moz-ui-valid + shop-md-decorator > label {
-      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      opacity: 1;
+      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      opacity: 0.7;
     }
 
     /* Underline */
@@ -209,9 +209,9 @@ import {Component, Input, Output, EventEmitter} from '@angular/core'
 
     /* Valid label */
     input:not(:focus):required:valid + shop-md-decorator > label {
-      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      transform: translate3d(0px, -3.4em, 0px) scale(0.8, 0.8);
-      opacity: 1;
+      -webkit-transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      transform: translate3d(0px, -3.4em, 0px) scale(0.6, 0.6);
+      opacity: 0.7;
     }
   `]
 })
