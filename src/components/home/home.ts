@@ -4,7 +4,7 @@ import {PaperButton} from '../polymer/paper-button'
 import {ShopInput} from '../polymer/shop-input'
 
 @Component({
-  selector: 'my-app',
+  selector: 'app-home',
   template: `
     <h1>My First {{name}} {{1+1}} App</h1>
     <paper-button value="ほげほげ" (click)="onClick()"></paper-button>
@@ -26,7 +26,7 @@ import {ShopInput} from '../polymer/shop-input'
   directives: [PaperButton, ShopInput, NgClass]
 })
 
-export class AppComponent {
+export class HomeComponent {
   public name = 'Angular';
 
   onClick() {

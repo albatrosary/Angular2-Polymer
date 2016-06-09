@@ -13,6 +13,8 @@ System.config({
     '@angular/compiler': { main: 'index' },
     '@angular/platform-browser': { main: 'index' },
     '@angular/platform-browser-dynamic': { main: 'index' },
+    '@angular/router-deprecated': { main: 'index' },
+    
 
     // Thirdparty barrels.
     'rxjs': { main: 'Rx' },

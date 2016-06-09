@@ -1,1 +1,1 @@
-export {AppComponent} from './home/home';
+export {AppComponent} from './app';
