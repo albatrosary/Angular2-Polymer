@@ -1,7 +1,6 @@
 import {Component} from '@angular/core'
 import {NgClass} from '@angular/common';
 import {PaperButton} from '../polymer/paper-button'
-import {PaperInput} from '../polymer/paper-input'
 import {ShopInput} from '../polymer/shop-input'
 
 @Component({
@@ -24,7 +23,7 @@ import {ShopInput} from '../polymer/shop-input'
       color: #000;
     }
   `],
-  directives: [PaperButton, PaperInput, ShopInput, NgClass]
+  directives: [PaperButton, ShopInput, NgClass]
 })
 
 export class AppComponent {
