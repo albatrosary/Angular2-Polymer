@@ -10,7 +10,6 @@ import {ShopInput} from '../polymer/shop-input'
     <h1>My First {{name}} {{1+1}} App</h1>
     <paper-button value="ほげほげ" (click)="onClick()"></paper-button>
     <paper-button value="ほげほげ" ngClass="hogehoge" (click)="onClick()"></paper-button>
-    <paper-input label="text input" type="text" value="{{name}}"></paper-input>
     <shop-input
       id="hoge"
       name="hoge"

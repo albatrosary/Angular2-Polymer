@@ -7,7 +7,7 @@ import {Component, Input, Output, EventEmitter} from '@angular/core'
   :host {
     background-color: #555;
     color: #fff;
-  }
+  }z
   `]
 })
 
