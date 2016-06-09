@@ -24,7 +24,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         position: relative;
       }
 
-      #overlay {
+      .overlay {
         pointer-events: none;
         display: none;
         position: absolute;
@@ -35,11 +35,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         @apply(--shop-tab-overlay);
       }
 
-      :host(.shop-tabs-overlay-static-above) #overlay {
+      :host(.shop-tabs-overlay-static-above) .overlay {
         display: block;
       }
     </style>
-    <div id="overlay"></div>
+    <div class="overlay"></div>
     <shop-ripple-container>
       <content></content>
     </shop-ripple-container>

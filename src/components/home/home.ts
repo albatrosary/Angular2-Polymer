@@ -6,7 +6,7 @@ import {ShopInput} from '../polymer/shop-input'
 @Component({
   selector: 'app-home',
   template: `
-    <h1>My First {{name}} {{1+1}} App</h1>
+    <h2>My First {{name}} {{1+1}} App</h2>
     <paper-button value="ほげほげ" (click)="onClick()"></paper-button>
     <paper-button value="ほげほげ" ngClass="hogehoge" (click)="onClick()"></paper-button>
     <shop-input

@@ -15,6 +15,7 @@ import {Home4Component} from './home4/home4';
 @Component({
   selector: 'my-app',
   template: `
+  <h1>Angular2 Polymer</h1>
   <shop-tabs attr-for-selected="name">
     <shop-tab class="iron-selected shop-tabs-overlay-static-above">
       <a [routerLink]="['Home']">Men's Outerwear</a>
@@ -32,6 +33,11 @@ import {Home4Component} from './home4/home4';
   <router-outlet></router-outlet>
   `,
   styles:[
+  `
+  h1 {
+    text-align:center
+  }
+  `,
   `.router-link-active {
     border-bottom: 2px solid #172C50;
   }`,
