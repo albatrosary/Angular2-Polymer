@@ -1,6 +1,6 @@
 # Angular2 Polymer
 
-## Geting Start
+## Getting Start
 
 ```
 git clone this repository
